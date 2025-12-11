@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background-color: #1B244A;
+    border-radius: 10px;
+}
+
+@font-face {
+    font-family: cursedTimer ;
+    src: url("CursedTimerUlil-Aznm.ttf");
+}
+
+h3{
+    color: #EEEEEE;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 0;
+    
+}
+
+.livescore{
+   width: 155px; 
+   height: 120px;
+   background-color: #080001;
+   border-radius: 5px;
+   font-family: cursedTimer;
+   color: #F94F6D;
+   font-size: 90px;
+   padding-top: 30px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+
+}
+
+button{
+    font-family: cursedTimer;
+    color:#9AABD8;
+    background-color: transparent;
+    font-size: 18px;
+    width: 45px;
+    height: 45px;
+    border: 2px solid #9AABD8;
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
