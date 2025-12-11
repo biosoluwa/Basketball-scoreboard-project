@@ -10,7 +10,7 @@ body {
 
 .container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 575px;
     height: 385px;
     background-color: #1B244A;
@@ -39,9 +39,7 @@ h3{
    color: #F94F6D;
    font-size: 90px;
    padding-top: 30px;
-   margin-top: 20px;
-   margin-bottom: 20px;
-
+   margin: 20px 50px;
 }
 
 button{
